@@ -8,7 +8,8 @@ function Sidebar() {
             <div className='fixed top-0 left-0 h-screen w-[90px] m-0
         flex flex-col
         bg-gray-800
-        border-white'>
+        border
+        border-gray-700'>
                 <div className='relative items-center justify-center
              h-12 w-12 pl-2 mt-8 mb-2 mx-auto'>
                     <div className="space-y-2">
