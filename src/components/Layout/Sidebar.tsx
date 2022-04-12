@@ -9,7 +9,7 @@ function Sidebar() {
         flex flex-col
         bg-layout-color
         border
-        border-x-gray-700'>
+        border-x-gray-700 z-10'>
                 <div className='relative items-center justify-centermy-8 mt-8    mb-2 mx-auto'>
                     <div className="space-y-2">
                         <div className="w-8 h-0.5 bg-white"></div>
