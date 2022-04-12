@@ -4,7 +4,7 @@ import Sidebar from './components/Sidebar';
 
 function App() {
   return (
-    <div className='mx-auto container-fuild'>
+    <div>
       <Sidebar />
       <Layout/>
     </div>

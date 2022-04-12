@@ -5,12 +5,12 @@ function Sidebar() {
 
     return (
         <>
-            <div className='fixed top-0 left-0 h-screen w-[90px] m-0
+            <div className='fixed top-0 left-0 h-screen w-[90px] my-0
         flex flex-col
-        bg-gray-800
-        border-white'>
-                <div className='relative items-center justify-center
-             h-12 w-12 pl-2 mt-8 mb-2 mx-auto'>
+        bg-layout-color
+        border
+        border-x-gray-700'>
+                <div className='relative items-center justify-centermy-8 mt-8    mb-2 mx-auto'>
                     <div className="space-y-2">
                         <div className="w-8 h-0.5 bg-white"></div>
                         <div className="w-8 h-0.5 bg-white"></div>
@@ -18,7 +18,7 @@ function Sidebar() {
                     </div>
                 </div>
                 <div className='absolute bottom-0 items-center justify-center
-               pl-5 h-12 w-12 mb-8 mx-auto'>
+                 pl-5 my-2 mb-8 mx-auto'>
                     <div className="space-y-2">
                         <div className="text-center text-white">Share</div>
                         <div className="text-center text-white">Twiter</div>
