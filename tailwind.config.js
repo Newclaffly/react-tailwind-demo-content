@@ -11,7 +11,11 @@ module.exports = {
       colors: {
         "layout-color": "#1a1a24",
         "blue-mid":"#22222f",
+        "card-color":"#292831"
       },
+      fontFamily:{
+        'helvethaica':['HELVETHAICA','san-serif']
+      }
     },
   },
   plugins: [],

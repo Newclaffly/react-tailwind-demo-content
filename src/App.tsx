@@ -4,7 +4,7 @@ import Sidebar from './components/Layout/Sidebar';
 
 function App() {
   return (
-    <div>
+    <div className='font-helvethaica'>
       <Sidebar />
       <Layout/>
     </div>
