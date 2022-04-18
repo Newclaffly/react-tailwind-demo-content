@@ -1,4 +1,5 @@
 import React from 'react'
+import {FaShareAlt } from "react-icons/fa";
 
 function HeaderNews() {
     return (
@@ -9,8 +10,8 @@ function HeaderNews() {
             <div className='text-1xl text-white my-4'>
                 นับถอยหลังสู่การเลือกตั้งผู้ว่าฯ กรุงเทพไปพร้อมกับ workpointTODAY อัปเดตข่าวสาร นโยบาย และติดตามการนับคะแนนแบบเรียลไทม์
             </div>
-            <div className='right-0 absolute px-4'>
-                <button type='button' className='rounded-full bg-gray-500  text-white '>แชร์หน้านี้</button>
+            <div className='right-0 absolute mx-auto'>
+                <button type='button' className='rounded-full bg-gray-500 h-[40px] w-[120px] text-white flex  text-center items-center pl-4'><FaShareAlt className='mr-2'/> แชร์หน้านี้</button>
             </div>
         </div>
     )

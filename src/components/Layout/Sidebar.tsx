@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-
+import { FaTwitter,FaShareAlt } from "react-icons/fa";
 function Sidebar() {
     const [showSidebar, setShowSidebar] = useState(false)
 
@@ -45,10 +45,10 @@ function Sidebar() {
                         </div>
                     </div>
                     <div className='absolute bottom-0 items-center justify-center
-                     pl-5 my-2 mb-8 mx-auto cursor-pointer'>
-                        <div className="space-y-2">
-                            <div className="text-center text-white">Share</div>
-                            <div className="text-center text-white">Twiter</div>
+                     pl-8 my-2 mb-8  cursor-pointer'>
+                        <div className="space-y-5 aligin-items-center">
+                            <div className="text-white"><FaShareAlt/></div>
+                            <div className="text-white"><FaTwitter/></div>
                         </div>
                     </div>
                 </div>
