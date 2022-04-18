@@ -1,6 +1,6 @@
 import React from 'react'
 import CardContentNewsUpdate from '../Content/CardContentNewsUpdate'
-import CardContent from '../Content/CardContentTopic'
+import ContentTopic from '../Content/ContentTopic'
 import BannerNews from './BannerNews'
 import HeaderNews from './HeaderNews'
 
@@ -13,7 +13,7 @@ function Layout() {
                     <div className='my-0 relative'>
                         <HeaderNews />
                         {/* Manual topic */}
-                        <CardContent />
+                        <ContentTopic />
                         {/* Content news */}
                         <CardContentNewsUpdate />
                     </div>
