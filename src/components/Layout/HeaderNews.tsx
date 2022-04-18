@@ -11,7 +11,7 @@ function HeaderNews() {
                 นับถอยหลังสู่การเลือกตั้งผู้ว่าฯ กรุงเทพไปพร้อมกับ workpointTODAY อัปเดตข่าวสาร นโยบาย และติดตามการนับคะแนนแบบเรียลไทม์
             </div>
             <div className='right-0 absolute mx-auto'>
-                <button type='button' className='rounded-full bg-gray-500 h-[40px] w-[120px] text-white flex  text-center items-center pl-4'><FaShareAlt className='mr-2'/> แชร์หน้านี้</button>
+                <button type='button' className='rounded-full bg-card-color h-[40px] w-[120px] text-white flex  text-center items-center pl-4'><FaShareAlt className='mr-2'/> แชร์หน้านี้</button>
             </div>
         </div>
     )
